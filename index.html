@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="variables.js"></script>
+    <script src="functionsView.js"></script>
+    <script src="functions.js"></script>
+    <script src="board.js"></script>
+    <script src="timer.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>
+      Sudoku
+      <span id="timer-container"
+        ><button id="btn-start">Start</button> <span id="timer">00:00:00</span>
+        <button id="btn-pause">Pause</button
+        ><button id="btn-resume">Resume</button
+        ><button id="btn-restart">Restart</button></span
+      >
+    </h1>
+
+    <h2 id="difficulty"></h2>
+    <hr />
+    <h3 id="errors">Mistakes: 0</h3>
+
+    <!-- 9x9 -->
+    <div id="sudoku"></div>
+    <br />
+    <div id="numbers-container"></div>
+  </body>
+</html>
